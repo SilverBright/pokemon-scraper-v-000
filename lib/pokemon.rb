@@ -1,7 +1,8 @@
 class Pokemon
 
-  def initialize(name)
+  def initialize(name, type)
     @name = name
+    @type = type
   end
 
 end
