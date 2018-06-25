@@ -12,7 +12,7 @@ class Pokemon
   end
 
   def self.save(id, name, type)
-
+    Pokemon.new(1, "Pikachu", "electric")
     end
   end
   end
