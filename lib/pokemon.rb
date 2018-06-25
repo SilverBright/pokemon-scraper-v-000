@@ -15,5 +15,6 @@ class Pokemon
     database_connection.execute ("INSERT INTO pokemon (name, breed, age) VALUES (1, "Pikachu", "electric")",name, breed, age)
     end
   end
+  end
 
 end
