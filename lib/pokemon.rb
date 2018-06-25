@@ -11,8 +11,8 @@ class Pokemon
     @@all << self
   end
 
-  def self.save(id, name, type, database_connection)
-    database_connection.execute ("INSERT INTO pokemon (name, breed, age) VALUES (1, "Pikachu", "electric")",name, breed, age)
+  def self.save(id, name, type)
+
     end
   end
   end
